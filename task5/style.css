@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+#input {
+    width: 250px;
+    height: 25px;
+    border: 1px solid cornflowerblue;
+    text-align: center;
+}
+
+label {
+    margin: 0 auto;
+    font-size: 13px;
+}
+
+.result {
+    width: 250px;
+    height: 25px;
+    border: 1px solid cornflowerblue;
+    color: gray;
+    margin: 3px auto 15px;
+}
+
+.btn {
+    width: 110px;
+    margin: 15px auto;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+.results {    
+    text-align: center;    
+}
+
+.invalid {
+    border: 2px solid red;
+}
