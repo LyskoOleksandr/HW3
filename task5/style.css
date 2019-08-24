@@ -4,24 +4,18 @@
 
 
 
-#input {
+input {
     width: 250px;
     height: 25px;
     border: 1px solid cornflowerblue;
     text-align: center;
+    margin: 3px auto 15px;
+    font-size: 13px;
 }
 
 label {
     margin: 0 auto;
     font-size: 13px;
-}
-
-.result {
-    width: 250px;
-    height: 25px;
-    border: 1px solid cornflowerblue;
-    color: gray;
-    margin: 3px auto 15px;
 }
 
 .btn {
@@ -38,8 +32,11 @@ label {
 
 }
 
-.results {    
-    text-align: center;    
+.results {   
+    display: flex; 
+    text-align: center;  
+    justify-content: center;
+    flex-direction: column;  
 }
 
 .invalid {
